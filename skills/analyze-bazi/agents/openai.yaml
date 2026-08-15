@@ -1,0 +1,13 @@
+interface:
+  display_name: 八字分析
+  short_description: 以真太阳时核盘，分层解读八字原局、大运流年、合盘与现实问题
+  default_prompt: 使用 $analyze-bazi 按真太阳时核验并分层解读这份八字资料，区分结构事实、流派解释与不确定性。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
