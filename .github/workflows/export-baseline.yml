@@ -1,0 +1,30 @@
+name: Export pinned baseline
+on:
+  push:
+    branches: [codex/reliability-complete]
+    paths: [.github/workflows/export-baseline.yml]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: 456100131d7f0492df9ac1d515d614d37515f9da
+          persist-credentials: false
+      - name: Archive tracked baseline only
+        shell: bash
+        run: |
+          mkdir -p export
+          git archive --format=zip --prefix=baseline/ HEAD > export/baseline.zip
+          git rev-parse HEAD > export/commit.txt
+          git ls-tree -r HEAD > export/git-tree.txt
+          sha256sum export/baseline.zip > export/SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pinned-baseline
+          path: export/
+          retention-days: 3
+          if-no-files-found: error
