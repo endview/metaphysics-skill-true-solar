@@ -2,7 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import fs f
 import {AuthorizedStore} from '../../runtime-src/persistent-store.mjs';import {SessionCaseStore} from '../../runtime-src/case.mjs';
 import {reviewInput} from '../fixtures/synthetic/native-inputs.mjs';import {ReviewSession} from '../../runtime-src/session-host.mjs';import {createProfile} from '../../skills/cast-meihua/scripts/profile.mjs';
 const root=fileURLToPath(new URL('../../skills/cast-meihua/',import.meta.url));
-async function temp(f){const d=await fs.mkdtemp(path.join(os.tmpdir(),'metaphysics-persist-'));try{return await f(d);}finally{await fs.rm(d,{recursive:true,force:true});}}
+async function temp(f){const d=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'metaphysics-persist-')));try{return await f(d);}finally{await fs.rm(d,{recursive:true,force:true});}}
 test('Storage requires explicit permission',()=>temp(async d=>{await assert.rejects(AuthorizedStore.open(d,{skill_root:root}),e=>e.code==='STORAGE_AUTHORIZATION_REQUIRED');}));
 test('Storage cannot be written into an installed skill',()=>assert.rejects(AuthorizedStore.open(root,{skill_root:root,authorized:true}),e=>e.code==='STORE_INSIDE_SKILL'));
 test('HMAC store detects modified content and never accepts an uploaded snapshot as an executed result',()=>temp(async d=>{

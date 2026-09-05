@@ -9,7 +9,7 @@ checks=json.loads((root/'reports/skill-package-checks.json').read_text());build=
 for name,entry in build['packages'].items():
  archive=root/entry['archive'];expected=checks['packages'][name]['files'];method={'analyze-bazi':'bazi','analyze-ziwei':'ziwei','cast-meihua':'meihua'}.get(name)
  with TemporaryDirectory(prefix='metaphysics-package-qa-') as temp:
-  temp=Path(temp)
+  temp=Path(temp).resolve()
   with zipfile.ZipFile(archive) as z:
    names=z.namelist();assert len(names)==len(set(names)) and sum(e.file_size for e in z.infolist())<=25*1024*1024
    for e in z.infolist():

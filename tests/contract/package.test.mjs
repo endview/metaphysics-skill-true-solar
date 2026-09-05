@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';
 import {checkSkillPackage} from '../../runtime-src/package-check.mjs';
-async function fixture(fn){const dir=await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-package-'));
+async function fixture(fn){const dir=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-package-')));
   try{await fs.mkdir(path.join(dir,'agents'));await fs.writeFile(path.join(dir,'SKILL.md'),'---\nname: synthetic\ndescription: Synthetic packaging test only\n---\n');
     await fs.writeFile(path.join(dir,'agents/openai.yaml'),'interface:\n  display_name: Synthetic\n');await fn(dir,['SKILL.md','agents/openai.yaml']);
   }finally{await fs.rm(dir,{recursive:true,force:true});}}

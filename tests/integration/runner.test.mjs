@@ -51,7 +51,7 @@ test('parent secrets are not inherited by native child',async()=>{
   finally{delete process.env.METAPHYSICS_TEST_SECRET;}
 });
 test('source mutation invalidates the registered digest',async()=>{
-  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-source-'));
+  const temp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-source-')));
   try{
     await fs.copyFile(path.join(root,'echo-native.mjs'),path.join(temp,'echo-native.mjs'));
     const p=await profile({root:temp}),s=await setup({profiles:[p]});await fs.appendFile(path.join(temp,'echo-native.mjs'),'\n// injected change\n');
@@ -59,7 +59,7 @@ test('source mutation invalidates the registered digest',async()=>{
   }finally{await fs.rm(temp,{recursive:true,force:true});}
 });
 test('source symlinks are rejected',async()=>{
-  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-link-'));
+  const temp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-link-')));
   try{await fs.symlink(path.join(root,'echo-native.mjs'),path.join(temp,'echo-native.mjs'));await rejects(sourceSnapshot(temp,['echo-native.mjs']),'SYMLINK_SOURCE');}
   finally{await fs.rm(temp,{recursive:true,force:true});}
 });
@@ -91,7 +91,7 @@ test('invalidated results cannot be reused or finalized',async()=>{
   assert.equal(s.store.records(s.c.case_id).length,1);
 });
 test('a raw shell-looking input is data and cannot create a file',async()=>{
-  const dir=await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-injection-')),target=path.join(dir,'should-not-exist');
+  const dir=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'synthetic-injection-'))),target=path.join(dir,'should-not-exist');
   try {const s=await setup({input:{value:7,note:`$(touch ${target}); echo synthetic`}});const r=await s.runner.compute(s.c.case_id,s.t.task_id);
     assert.equal(r.native_payload.data.input_echo.note,`$(touch ${target}); echo synthetic`);await assert.rejects(fs.access(target));
   }finally{await fs.rm(dir,{recursive:true,force:true});}

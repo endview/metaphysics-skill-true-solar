@@ -16,7 +16,7 @@ test('Ziwei wrapper executes, checks candidates and emits standard child',async(
   assert.equal((await s.review(ziweiReview())).execution_record.run_id,r.execution_record.run_id);
 });
 test('Ziwei insufficient input never reads vendor chunks or initializes engine',async()=>{
-  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'ziwei-lazy-'));
+  const temp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'ziwei-lazy-')));
   try {const root=new URL('../../skills/analyze-ziwei/',import.meta.url);await fs.cp(root,temp,{recursive:true});
     for(const name of await fs.readdir(path.join(temp,'scripts/vendor/iztro')))if(name.endsWith('.txt'))await fs.rm(path.join(temp,'scripts/vendor/iztro',name));
     const input=ziweiInput();delete input.birth.true_solar;
@@ -26,7 +26,7 @@ test('Ziwei insufficient input never reads vendor chunks or initializes engine',
   }finally{await fs.rm(temp,{recursive:true,force:true});}
 });
 test('Ziwei corrupted vendor fails with no hand-assembled chart',async()=>{
-  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'ziwei-corrupt-'));try{
+  const temp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'ziwei-corrupt-')));try{
     await fs.cp(new URL('../../skills/analyze-ziwei/',import.meta.url),temp,{recursive:true});
     const p=path.join(temp,'scripts/vendor/iztro/iztro.min.js.gz.b64.part-00.txt');const b=await fs.readFile(p);b[2]=b[2]===65?66:65;await fs.writeFile(p,b);
     const run=spawnSync(process.execPath,[path.join(temp,'scripts/ziwei-cli.mjs')],{input:JSON.stringify(ziweiInput()),encoding:'utf8',timeout:10000});

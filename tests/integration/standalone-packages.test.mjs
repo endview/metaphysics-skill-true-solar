@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 import {reviewInput} from '../fixtures/synthetic/native-inputs.mjs';
 const root=path.dirname(path.dirname(path.dirname(fileURLToPath(import.meta.url))));
 async function isolated(skill,fn) {
-  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'native-skill-isolated-'));
+  const temp=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'native-skill-isolated-')));
   try {const target=path.join(temp,'standalone skill');await fs.cp(path.join(root,'skills',skill),target,{recursive:true});await fn(target);}
   finally {await fs.rm(temp,{recursive:true,force:true});}
 }
