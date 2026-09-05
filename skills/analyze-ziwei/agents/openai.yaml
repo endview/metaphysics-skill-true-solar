@@ -1,13 +1,13 @@
 interface:
-  display_name: "紫微斗数分析"
-  short_description: "使用可追溯真太阳时协议分析紫微命盘、本命、大限与流年"
-  default_prompt: "使用 $analyze-ziwei 按真太阳时协议分析我的紫微命盘、本命、大限与流年阶段。"
-  icon_small: "./assets/icon.svg"
-  icon_large: "./assets/icon.svg"
+  display_name: 紫微斗数分析
+  short_description: 使用可追溯真太阳时协议分析紫微命盘、本命、大限与流年
+  default_prompt: 使用 $analyze-ziwei，先确认实际可用能力和已有输入，经受控执行、事实草稿及解释校验后交付；保留来源、未完成项和不确定性，不伪称执行或独立验证。
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.svg
 policy:
   products:
-  - "chatgpt"
-  - "codex"
-  - "api"
-  - "atlas"
+  - chatgpt
+  - codex
+  - api
+  - atlas
   allow_implicit_invocation: true

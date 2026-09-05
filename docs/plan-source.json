@@ -1,0 +1,10 @@
+{
+  "uploaded_plan": "reliability-plan.md",
+  "expected_commit": "456100131d7f0492df9ac1d515d614d37515f9da",
+  "commit_read_through_github": true,
+  "verified_complete_original_skill_directories": [
+    "analyze-bazi",
+    "cast-meihua"
+  ],
+  "full_repository_acquired": false
+}

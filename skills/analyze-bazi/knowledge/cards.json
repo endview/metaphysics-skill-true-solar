@@ -1,0 +1,342 @@
+{
+  "schema": "metaphysics.knowledge-cards.v1",
+  "version": "1.0.0",
+  "cards": [
+    {
+      "card_id": "bazi.strength",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Strength",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Assess season, roots, exposed stems, support and restraint jointly; counting elements is insufficient.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.climate",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Seasonal climate",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Discuss cold/warm and damp/dry separately from strength and pattern. A climate need is not automatically a strength remedy.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.pattern",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Pattern",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Name the school and all formation, disruption and rescue conditions. Retain alternatives when criteria are incomplete.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.useful",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Useful element objective",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Specify whether useful refers to strength, climate, pattern or mediation. Do not combine incompatible objectives under one label.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.relations",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Relations",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "A fixed relation is only a detected structural relation. Missing members, seasonal conditions and competing relations can prevent transformation.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/relationships"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/relationships",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.timelayers",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Time layers",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Keep natal interpretation fixed before adding the supplied decadal or annual layer. Do not substitute an annual argument for month/day/hour.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "bazi.auxiliary",
+      "version": "1.0.0",
+      "method": "bazi",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/analysis-workflow.md",
+          "locator": "Auxiliary symbol policy",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-bazi/references/relationships.md",
+          "locator": "Relation existence versus interpretation",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Unverified shensha, hidden combinations and arching relations do not override the main structure. Without a registered school table, acknowledge but do not interpret them.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/checks_by_chart/{chart}/pillars"
+        },
+        {
+          "op": "exists",
+          "pointer": "/evidence/time_basis/verification_status"
+        }
+      ],
+      "fact_requirements": [
+        "/checks_by_chart/{chart}/pillars",
+        "/evidence/time_basis/verification_status"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    }
+  ]
+}

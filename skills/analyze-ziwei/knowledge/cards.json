@@ -1,0 +1,950 @@
+{
+  "schema": "metaphysics.knowledge-cards.v1",
+  "version": "1.0.0",
+  "cards": [
+    {
+      "card_id": "ziwei.star.1",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "紫微 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: coordination.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "紫微"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.2",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "天机 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: planning.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "天机"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.3",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "太阳 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: outward contribution.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "太阳"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.4",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "武曲 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: practical execution.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "武曲"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.5",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "天同 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: comfort.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "天同"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.6",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "廉贞 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: self-restraint.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "廉贞"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.7",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "天府 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: stewardship.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "天府"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.8",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "太阴 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: quiet care.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "太阴"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.9",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "贪狼 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: exploration.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "贪狼"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.10",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "巨门 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: expression.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "巨门"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.11",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "天相 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: coordination and service.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "天相"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.12",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "天梁 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: protection.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "天梁"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.13",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "七杀 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: decisive action.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "七杀"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.star.14",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/major-star",
+          "locator": "破军 section",
+          "license": "Author retains source copyright; original very short conceptual paraphrase, no source article redistributed"
+        }
+      ],
+      "meaning": "Traditional reflection label: restructuring.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/origin/palaces/{palace}/stars"
+      ],
+      "counter_readings": [
+        "Brightness, accompanying stars, transformations, palace relationships and the requested time layer can materially change this reading. A single star does not establish a personal trait."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "star",
+        "name": "破军"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.transformation.0",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/mutagen",
+          "locator": "Hua Lu",
+          "license": "Author retains source copyright; original very short conceptual paraphrase"
+        }
+      ],
+      "meaning": "Transformation reflection label: increase. It qualifies a star; it is not an independent event.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "transformation",
+        "name": "禄"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.transformation.1",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/mutagen",
+          "locator": "Hua Quan",
+          "license": "Author retains source copyright; original very short conceptual paraphrase"
+        }
+      ],
+      "meaning": "Transformation reflection label: responsibility. It qualifies a star; it is not an independent event.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "transformation",
+        "name": "权"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.transformation.2",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/mutagen",
+          "locator": "Hua Ke",
+          "license": "Author retains source copyright; original very short conceptual paraphrase"
+        }
+      ],
+      "meaning": "Transformation reflection label: recognition. It qualifies a star; it is not an independent event.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "transformation",
+        "name": "科"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.transformation.3",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://iztro.com/learn/mutagen",
+          "locator": "Hua Ji",
+          "license": "Author retains source copyright; original very short conceptual paraphrase"
+        }
+      ],
+      "meaning": "Transformation reflection label: persistent concern. It qualifies a star; it is not an independent event.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "transformation",
+        "name": "忌"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.domain.career",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/domain-map.md",
+          "locator": "career",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/interpretation-workflow.md",
+          "locator": "Domain interpretation workflow",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "For career, read the requested palace together with its three-direction/four-correct relations, transformations and selected time layer. Verify actual circumstances separately.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "domain",
+        "domain": "career"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.domain.migration",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/domain-map.md",
+          "locator": "migration",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/interpretation-workflow.md",
+          "locator": "Domain interpretation workflow",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "For migration, read the requested palace together with its three-direction/four-correct relations, transformations and selected time layer. Verify actual circumstances separately.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "domain",
+        "domain": "migration"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.domain.resources",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/domain-map.md",
+          "locator": "resources",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/interpretation-workflow.md",
+          "locator": "Domain interpretation workflow",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "For resources, read the requested palace together with its three-direction/four-correct relations, transformations and selected time layer. Verify actual circumstances separately.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "domain",
+        "domain": "resources"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    },
+    {
+      "card_id": "ziwei.domain.relationships",
+      "version": "1.0.0",
+      "method": "ziwei",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/domain-map.md",
+          "locator": "relationships",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        },
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/analyze-ziwei/references/interpretation-workflow.md",
+          "locator": "Domain interpretation workflow",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "For relationships, read the requested palace together with its three-direction/four-correct relations, transformations and selected time layer. Verify actual circumstances separately.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/candidates/groups/{group}/facts/{layer}"
+        }
+      ],
+      "fact_requirements": [
+        "/candidates/groups/{group}/facts/{layer}"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "domain",
+        "domain": "relationships"
+      },
+      "scopes": [
+        "traditional_structure",
+        "annual_cycle",
+        "multi_year_stage"
+      ]
+    }
+  ]
+}

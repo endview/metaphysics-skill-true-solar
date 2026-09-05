@@ -597,8 +597,20 @@ function insufficientInputResult(normalized) {
   return { ...result, result_hash: `sha256:${sha256Canonical(result)}` };
 }
 
-export function runZiwei(input) {
+// Reliability preflight export; existing input schema and chart algorithm are unchanged.
+export function preflightZiwei(input) {
   const normalized = normalizeInput(input);
+  const requested = dimensions(normalized);
+  for (const item of requested) {
+    if (item.target_true_solar_date < item.birth_true_solar_date) {
+      throw new Error('target true-solar date must not be earlier than the candidate birth date');
+    }
+  }
+  return {normalized, requested, ready: normalized.birth.true_solar.status !== 'unresolved' && normalized.target.true_solar.status !== 'unresolved'};
+}
+
+export function runZiwei(input) {
+  const {normalized} = preflightZiwei(input);
   if (normalized.birth.true_solar.status === 'unresolved' || normalized.target.true_solar.status === 'unresolved') {
     return insufficientInputResult(normalized);
   }

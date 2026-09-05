@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metaphysics.route-plan.v4",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "metaphysics.route-plan.v4"
+    },
+    "execution_profile": {
+      "const": "method-v5"
+    },
+    "route_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "request_digest": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requested_methods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "schema_version": {
+            "const": "metaphysics.adapter-task.v4"
+          },
+          "execution_profile": {
+            "const": "method-v5"
+          },
+          "route_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "case_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "task_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rule_profile": {
+            "type": "string",
+            "minLength": 1
+          },
+          "subject_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "event_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "proposition_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "criteria": {
+            "type": "string",
+            "minLength": 1
+          },
+          "analysis_scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "window": {
+            "type": "object"
+          },
+          "time_context": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "method_inputs": {
+            "type": "object"
+          },
+          "context_policy": {
+            "const": "task-input-only-no-sibling-results"
+          }
+        },
+        "required": [
+          "schema_version",
+          "execution_profile",
+          "route_id",
+          "case_id",
+          "task_id",
+          "method",
+          "rule_profile",
+          "subject_ref",
+          "event_ref",
+          "proposition_id",
+          "question",
+          "criteria",
+          "analysis_scope",
+          "revision",
+          "window",
+          "time_context",
+          "method_inputs",
+          "context_policy"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unavailable": {
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "ready",
+        "partial"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "execution_profile",
+    "route_id",
+    "request_id",
+    "request_digest",
+    "subject_ref",
+    "event_ref",
+    "proposition_id",
+    "requested_methods",
+    "tasks",
+    "unavailable",
+    "status"
+  ],
+  "additionalProperties": false
+}

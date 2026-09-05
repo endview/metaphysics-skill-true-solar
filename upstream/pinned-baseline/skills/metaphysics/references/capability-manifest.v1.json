@@ -1,0 +1,83 @@
+{
+  "schema_version": "metaphysics.capability-manifest.v1",
+  "manifest_version": "1.0.0",
+  "provider_types": {
+    "method": {
+      "lifecycle_status": "active",
+      "purpose": "执行版本化玄学方法，并返回可独立解释与组合的结构化结果"
+    },
+    "knowledge": {
+      "lifecycle_status": "reserved",
+      "purpose": "查询可追溯的术数知识、术语、典籍与流派资料，不执行方法推演"
+    },
+    "utility": {
+      "lifecycle_status": "reserved",
+      "purpose": "执行历法、时间规范化、排盘校验或候选敏感性等确定性工具任务"
+    },
+    "workflow": {
+      "lifecycle_status": "reserved",
+      "purpose": "围绕明确交付目标编排方法、知识、工具与现实约束，不伪装成单一术数方法"
+    }
+  },
+  "execution_profiles": {
+    "method-v4": {
+      "supported_provider_types": [
+        "method"
+      ],
+      "orchestration_contract": "metaphysics.orchestration.v4",
+      "adapter_task_contract": "metaphysics.adapter-task.v3",
+      "source_result_contract": "metaphysics.standard-child.v1",
+      "adapter_result_contract": "metaphysics.adapter-result.v3",
+      "route_output_contract": "metaphysics.route-output.v4"
+    }
+  },
+  "providers": [
+    {
+      "provider_id": "bazi",
+      "provider_type": "method",
+      "record_version": "1.0.0",
+      "execution_profile": "method-v4",
+      "record_ref": {
+        "manifest_path": "references/method-manifest.v1.json",
+        "manifest_schema_version": "metaphysics.method-manifest.v1",
+        "collection": "methods",
+        "id_field": "method_id",
+        "id_value": "bazi"
+      }
+    },
+    {
+      "provider_id": "ziwei",
+      "provider_type": "method",
+      "record_version": "1.0.0",
+      "execution_profile": "method-v4",
+      "record_ref": {
+        "manifest_path": "references/method-manifest.v1.json",
+        "manifest_schema_version": "metaphysics.method-manifest.v1",
+        "collection": "methods",
+        "id_field": "method_id",
+        "id_value": "ziwei"
+      }
+    },
+    {
+      "provider_id": "meihua",
+      "provider_type": "method",
+      "record_version": "1.0.0",
+      "execution_profile": "method-v4",
+      "record_ref": {
+        "manifest_path": "references/method-manifest.v1.json",
+        "manifest_schema_version": "metaphysics.method-manifest.v1",
+        "collection": "methods",
+        "id_field": "method_id",
+        "id_value": "meihua"
+      }
+    }
+  ],
+  "selection_policy": {
+    "eligible_provider_type_status": "active",
+    "reserved_type_behavior": "unsupported",
+    "unregistered_type_behavior": "unsupported",
+    "allow_simulation": false,
+    "allow_silent_substitution": false,
+    "allow_non_method_through_method_v4": false
+  }
+}

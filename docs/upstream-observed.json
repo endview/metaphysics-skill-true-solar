@@ -1,0 +1,106 @@
+{
+  "repository": "endview/metaphysics-skill-true-solar",
+  "commit": "456100131d7f0492df9ac1d515d614d37515f9da",
+  "full_repository_acquired": false,
+  "complete_verified_subtrees": {
+    "analyze-bazi": "3674a3494ba8e448f9aa999d9219aa70db71bc9c",
+    "cast-meihua": "2575b042fde4cce7dcf70be2de4d7fb48bc83968"
+  },
+  "files": {
+    "LICENSE": {
+      "git_blob_sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "bytes": 34523
+    },
+    "skills/analyze-bazi/SKILL.md": {
+      "git_blob_sha": "3e920eb3cbd316bfaf9925a76da98d753707fddf",
+      "sha256": "1dfc439bfdb992b325a063e6adb34712140d90b8654460b722c588114ae899a7",
+      "bytes": 7213
+    },
+    "skills/analyze-bazi/agents/openai.yaml": {
+      "git_blob_sha": "689d292f44d66b5109bbb7d3614894975916e41b",
+      "sha256": "2898ad29c91632f37ee93e9a5d01f58260226de44e7ac4c389d3dd4a727f77ff",
+      "bytes": 451
+    },
+    "skills/analyze-bazi/assets/icon.svg": {
+      "git_blob_sha": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "bytes": 1210
+    },
+    "skills/analyze-bazi/references/analysis-workflow.md": {
+      "git_blob_sha": "2eae4c8010c506e345821909ae291b803fc7b251",
+      "sha256": "af760ec143ae98135b118807573a5bcf213b3012070746d08cb410317f6b6ada",
+      "bytes": 3939
+    },
+    "skills/analyze-bazi/references/branch-hidden-stems.md": {
+      "git_blob_sha": "26db998de2a5072d0b0b34341235edf8972f9343",
+      "sha256": "050176233568f9148db9af7002e00d7cc70efa24de2894b619940971136f2879",
+      "bytes": 698
+    },
+    "skills/analyze-bazi/references/charting-boundaries.md": {
+      "git_blob_sha": "33e147aa0bc05a657359be1c00cfd21cb5264068",
+      "sha256": "be2c2a35d102cef0b7bfcf02ee8f9820ed7d1b1a7abd9fbb5c4b380fc14d75a7",
+      "bytes": 4954
+    },
+    "skills/analyze-bazi/references/compatibility.md": {
+      "git_blob_sha": "01178643c857ad9942f19fe0c22211cde0668e2a",
+      "sha256": "86156d6e78127fa45d024750eff58e4b5851130636eb0a810e650f0d9abc7267",
+      "bytes": 1726
+    },
+    "skills/analyze-bazi/references/output-contract.md": {
+      "git_blob_sha": "5d5e236f85298f1575b599b6ff8b65ad5f288679",
+      "sha256": "3a6b71c9433bf0f90a3bbfdbe6d5887942403a7629b22347d0531ce02e2d91a8",
+      "bytes": 8041
+    },
+    "skills/analyze-bazi/references/relationships.md": {
+      "git_blob_sha": "798878d81c099360bd62c8286092d449015cd8f5",
+      "sha256": "7dd8820b7ed803b2ed7aa21b1ba6b518ff2bb1f4e69dfdbc5158cdb6c7ced1bc",
+      "bytes": 1185
+    },
+    "skills/analyze-bazi/references/ten-stems-and-ten-gods.md": {
+      "git_blob_sha": "47fc3a1bae39f775fa1c419d82aeb039d38d95c1",
+      "sha256": "a8983bd54c7e9ca4b7b2e93bee4a8b80e401d12d445478550f09ad766a0c8a8c",
+      "bytes": 2089
+    },
+    "skills/analyze-bazi/scripts/inspect_bazi.mjs": {
+      "git_blob_sha": "74199ecc8b217335f7a5bf879e2521b514e2290a",
+      "sha256": "7dade16c760b06d1a1a69153c3d9d9cbe8cb09c8a02be6d294e9b7e866324eda",
+      "bytes": 11786
+    },
+    "skills/cast-meihua/SKILL.md": {
+      "git_blob_sha": "e6a4e868393db4516fd93b5bb0e19d1a6b1bf0a6",
+      "sha256": "bace74a5f92df6be1651b9a29b1f39d07a92aadd6195a37429329d868500b649",
+      "bytes": 6062
+    },
+    "skills/cast-meihua/agents/openai.yaml": {
+      "git_blob_sha": "a5d3f40136e56d8045e77ff0d6c3f76042cadc86",
+      "sha256": "497438bd7ce9a31b421b39948a37ca8614663c8f4c177f6186a30faf3bc54990",
+      "bytes": 505
+    },
+    "skills/cast-meihua/assets/icon.svg": {
+      "git_blob_sha": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "bytes": 420
+    },
+    "skills/cast-meihua/references/interpretation.md": {
+      "git_blob_sha": "4a739f747cc055638891165d57d70177386f3b77",
+      "sha256": "892ed4cc3df6f156fcd81f83b1f712fa435b50da76826bbdf3c478141d8b9b4d",
+      "bytes": 2791
+    },
+    "skills/cast-meihua/references/output-contract.md": {
+      "git_blob_sha": "065245b8dc4a1f0e301c1ade72177b383b158734",
+      "sha256": "41968bbc12e466da1913c10ceee0630ab6781d5e0c50865b4f04d8fd078b15a9",
+      "bytes": 5494
+    },
+    "skills/cast-meihua/references/protocol.md": {
+      "git_blob_sha": "65e6a2b071b1278c3c978f95ce2faffd27a6e99a",
+      "sha256": "fe97b172316630d2052eecea644ea1be4f506733783af7f92bb59bd64dba7ed4",
+      "bytes": 5305
+    },
+    "skills/cast-meihua/scripts/cast_meihua.mjs": {
+      "git_blob_sha": "e347d800ef542ec467675be7355773bec86af435",
+      "sha256": "6c517ae9f784a89d5be5bf2fbdfc3d2db647764a0b715d02533654291cec1b5e",
+      "bytes": 28406
+    }
+  }
+}

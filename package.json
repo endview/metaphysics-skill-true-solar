@@ -1,0 +1,23 @@
+{
+  "name": "metaphysics-reliability-suite",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Four self-contained Skills with native execution, two-stage interpretation, provenance and local verification",
+  "engines": {
+    "node": "22.16.0"
+  },
+  "scripts": {
+    "test": "node --test tests/unit/*.test.mjs tests/contract/*.test.mjs tests/integration/*.test.mjs tests/native/*.test.mjs",
+    "test:report": "node tooling/test-report.mjs",
+    "check:release": "node tooling/release-gate.mjs",
+    "sync:runtime": "node tooling/sync-runtime.mjs",
+    "check:runtime": "node tooling/sync-runtime.mjs --check",
+    "check:skills": "node tooling/check-skills.mjs",
+    "check:source": "node tooling/verify-complete-baseline.mjs",
+    "build": "python tooling/build-skills.py",
+    "test:behavior": "node tooling/behavior-matrix.mjs",
+    "verify": "node tooling/verify-local.mjs"
+  },
+  "license": "AGPL-3.0-only"
+}

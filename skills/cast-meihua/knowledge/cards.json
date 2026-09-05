@@ -1,0 +1,3124 @@
+{
+  "schema": "metaphysics.knowledge-cards.v1",
+  "version": "1.0.0",
+  "cards": [
+    {
+      "card_id": "meihua.hex.1.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is initiative.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is careful conduct.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is shared purpose.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is without contrivance.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is encounter.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is dispute.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is withdrawal.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.1.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is blocked exchange.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 1
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is resolution.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is pleasure and exchange.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is renewal.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is following.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is excessive load.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is constraint.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is mutual response.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.2.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is gathering.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 2
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is abundance of resources.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is divergent views.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is clarity and attachment.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is addressing obstruction.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is reorganizing vessels.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is unfinished transition.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is temporary residence.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.3.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is advancement.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 3
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is great force.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is role misalignment.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is fullness.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is awakening movement.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is continuity.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is release.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is small excess.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.4.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is readiness.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 4
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is small accumulation.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is inner trust.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is household roles.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is increase.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is gradual entry.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is dispersion.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is gradual progress.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.5.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is observation.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 5
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is waiting and provision.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is limits.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is completed transition.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is difficult beginnings.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is shared well.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is repeated difficulty.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is obstruction.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.6.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is association.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 6
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is large accumulation.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is reduction.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is presentation.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is nourishment.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is repairing accumulated disorder.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is inexperience.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is stopping.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.7.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is erosion.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 7
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is open exchange.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 1
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is approaching.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 2
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is obscured clarity.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 3
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is return.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 4
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is rising stepwise.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 5
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is organized collective.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 6
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is humility.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 7
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hex.8.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/w/index.php?title=%E6%98%93%E5%82%B3/%E5%BA%8F%E5%8D%A6&oldid=2611127",
+          "locator": "Xu Gua, upper and lower sequences",
+          "license": "Public-domain classical text; original short thematic abstraction"
+        }
+      ],
+      "meaning": "A possible symbolic theme is receptivity.",
+      "prerequisites": [
+        {
+          "op": "equals",
+          "pointer": "/result/primary/upper/number",
+          "value": 8
+        },
+        {
+          "op": "equals",
+          "pointer": "/result/primary/lower/number",
+          "value": 8
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary/name",
+        "/result/primary/binaryBottomUp"
+      ],
+      "counter_readings": [
+        "The theme may describe a process or constraint rather than a favorable or unfavorable outcome; the frozen question and body/use relation take priority."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.1",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: initiative.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 1
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.2",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: receptive exchange.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 2
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.3",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: illumination.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 3
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.4",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: movement.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 4
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.5",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: entry.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 5
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.6",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: difficulty.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 6
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.7",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: restraint.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 7
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.trigram.8",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://zh.wikisource.org/wiki/%E6%98%93%E5%82%B3/%E8%AA%AA%E5%8D%A6",
+          "locator": "Shuo Gua, trigram qualities",
+          "license": "Public-domain classical text; original short abstraction"
+        }
+      ],
+      "meaning": "Trigram reflection theme: receptivity.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "selector": {
+        "kind": "trigram",
+        "number": 8
+      },
+      "scopes": [
+        "symbolic_event"
+      ]
+    },
+    {
+      "card_id": "meihua.hierarchy",
+      "version": "1.0.0",
+      "method": "meihua",
+      "tradition_profile": "project-explicit-conditions-v1",
+      "review_status": "reviewed",
+      "review_scope": "source-location, short paraphrase, counter-reading and inference boundary; not empirical validity",
+      "sources": [
+        {
+          "reference": "https://github.com/endview/metaphysics-skill-true-solar/blob/456100131d7f0492df9ac1d515d614d37515f9da/skills/cast-meihua/references/interpretation.md",
+          "locator": "Interpretation priority",
+          "license": "AGPL-3.0-only; project-authored abstraction"
+        }
+      ],
+      "meaning": "Interpret frozen question, primary hexagram, body/use, moving line, changed hexagram, then mutual and opposite/reversed views. Later symbols qualify, not reverse, the earlier analysis.",
+      "prerequisites": [
+        {
+          "op": "exists",
+          "pointer": "/result/primary"
+        },
+        {
+          "op": "exists",
+          "pointer": "/result/bodyUse"
+        },
+        {
+          "op": "exists",
+          "pointer": "/result/movingLine"
+        }
+      ],
+      "fact_requirements": [
+        "/result/primary",
+        "/result/bodyUse",
+        "/result/movingLine"
+      ],
+      "counter_readings": [
+        "The opposite reading may apply when actual conditions, other structures, or candidate choices differ."
+      ],
+      "not_inferable": [
+        "Hidden thoughts, location, diagnosis, equipment defects, moral worth, or guaranteed events.",
+        "A statistical probability or exact predicted date."
+      ],
+      "use_policy": "Conditional traditional reflection only. State supporting structure, a counter-reading, and relevant real-world evidence.",
+      "scopes": [
+        "symbolic_event"
+      ]
+    }
+  ]
+}

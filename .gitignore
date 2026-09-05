@@ -1,36 +1,9 @@
-# Operating-system and editor files
-.DS_Store
-Thumbs.db
-__MACOSX/
-.idea/
-.vscode/
-*~
-*.swp
-
-# Local credentials and environment
-.env
-.env.*
-*.pem
-*.key
-*.p12
-*.pfx
-
-# Dependencies, caches, and build output
 node_modules/
 __pycache__/
-*.py[cod]
-.pytest_cache/
-.cache/
 dist/
-build/
-coverage/
-
-# Runtime and temporary output
+reports/
+*.zip
+.env
+.env.*
 *.log
 *.tmp
-*.bak
-tmp/
-temp/
-
-# Release archives are distributed separately
-*.zip

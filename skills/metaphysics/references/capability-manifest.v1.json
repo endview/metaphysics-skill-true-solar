@@ -1,6 +1,6 @@
 {
   "schema_version": "metaphysics.capability-manifest.v1",
-  "manifest_version": "1.0.0",
+  "manifest_version": "2.0.0",
   "provider_types": {
     "method": {
       "lifecycle_status": "active",
@@ -20,23 +20,27 @@
     }
   },
   "execution_profiles": {
-    "method-v4": {
+    "method-v5": {
+      "implementation_status": "implemented_candidate",
+      "default_for_this_candidate": true,
+      "deployment_accepted": false,
       "supported_provider_types": [
         "method"
       ],
-      "orchestration_contract": "metaphysics.orchestration.v4",
-      "adapter_task_contract": "metaphysics.adapter-task.v3",
+      "orchestration_contract": "metaphysics.orchestration.v5",
+      "adapter_task_contract": "metaphysics.adapter-task.v4",
       "source_result_contract": "metaphysics.standard-child.v1",
-      "adapter_result_contract": "metaphysics.adapter-result.v3",
-      "route_output_contract": "metaphysics.route-output.v4"
+      "adapter_result_contract": "metaphysics.adapter-result.v4",
+      "route_output_contract": "metaphysics.route-output.v5",
+      "entrypoint": "scripts/route.mjs"
     }
   },
   "providers": [
     {
       "provider_id": "bazi",
       "provider_type": "method",
-      "record_version": "1.0.0",
-      "execution_profile": "method-v4",
+      "record_version": "2.0.0",
+      "execution_profile": "method-v5",
       "record_ref": {
         "manifest_path": "references/method-manifest.v1.json",
         "manifest_schema_version": "metaphysics.method-manifest.v1",
@@ -48,8 +52,8 @@
     {
       "provider_id": "ziwei",
       "provider_type": "method",
-      "record_version": "1.0.0",
-      "execution_profile": "method-v4",
+      "record_version": "2.0.0",
+      "execution_profile": "method-v5",
       "record_ref": {
         "manifest_path": "references/method-manifest.v1.json",
         "manifest_schema_version": "metaphysics.method-manifest.v1",
@@ -61,8 +65,8 @@
     {
       "provider_id": "meihua",
       "provider_type": "method",
-      "record_version": "1.0.0",
-      "execution_profile": "method-v4",
+      "record_version": "2.0.0",
+      "execution_profile": "method-v5",
       "record_ref": {
         "manifest_path": "references/method-manifest.v1.json",
         "manifest_schema_version": "metaphysics.method-manifest.v1",
@@ -78,6 +82,6 @@
     "unregistered_type_behavior": "unsupported",
     "allow_simulation": false,
     "allow_silent_substitution": false,
-    "allow_non_method_through_method_v4": false
+    "allow_non_method_through_method_v5": false
   }
 }

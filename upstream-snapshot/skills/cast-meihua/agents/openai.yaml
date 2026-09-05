@@ -1,0 +1,13 @@
+interface:
+  display_name: 梅花易数
+  short_description: 以民用时或真太阳时和版本化协议完成梅花起卦，并分层解释趋势与应期
+  default_prompt: 使用 $cast-meihua 对一个明确问题进行单方法梅花起卦；先冻结民用时或真太阳时时间口径，如需多方法或综合分析则改用 $metaphysics。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

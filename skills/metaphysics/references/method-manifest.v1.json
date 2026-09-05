@@ -1,6 +1,6 @@
 {
   "schema_version": "metaphysics.method-manifest.v1",
-  "manifest_version": "3.0.0",
+  "manifest_version": "4.0.0",
   "time_basis_policy": {
     "mode": "per_method_profile",
     "civil_input_accepted": true,
@@ -175,7 +175,7 @@
           "insufficient_input",
           "error"
         ],
-        "target_schema": "metaphysics.adapter-result.v3",
+        "target_schema": "metaphysics.adapter-result.v4",
         "normalizer": "standard-child-v1-to-adapter-v3"
       },
       "combination_policy": {
@@ -281,7 +281,7 @@
           "insufficient_input",
           "error"
         ],
-        "target_schema": "metaphysics.adapter-result.v3",
+        "target_schema": "metaphysics.adapter-result.v4",
         "normalizer": "standard-child-v1-to-adapter-v3"
       },
       "combination_policy": {
@@ -422,7 +422,7 @@
           "insufficient_input",
           "error"
         ],
-        "target_schema": "metaphysics.adapter-result.v3",
+        "target_schema": "metaphysics.adapter-result.v4",
         "normalizer": "standard-child-v1-to-adapter-v3"
       },
       "combination_policy": {
@@ -432,5 +432,15 @@
         "redundancy_group": "bounded_event"
       }
     }
-  ]
+  ],
+  "runtime_contract": {
+    "execution_profile": "method-v5",
+    "entrypoint": "scripts/route.mjs",
+    "legacy_history": "read_only_imported_unverified",
+    "production_accepted": false,
+    "installed_converter_registry": "empty",
+    "accepted_wrapper_solar_verification": [
+      "user_declared"
+    ]
+  }
 }
