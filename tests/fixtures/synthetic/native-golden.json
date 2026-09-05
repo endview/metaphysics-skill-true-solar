@@ -1,0 +1,92 @@
+{
+  "provenance": "Synthetic assertions derived from separately reviewed protocol.md and ten-stems-and-ten-gods.md at commit 456100131d7f0492df9ac1d515d614d37515f9da; expectations do not call the tested functions. This is a new suite, not a reproduction of the unavailable 468-test source.",
+  "trigram_bits": [
+    "111",
+    "110",
+    "101",
+    "100",
+    "011",
+    "010",
+    "001",
+    "000"
+  ],
+  "pure_names": [
+    "乾为天",
+    "兑为泽",
+    "离为火",
+    "震为雷",
+    "巽为风",
+    "坎为水",
+    "艮为山",
+    "坤为地"
+  ],
+  "hour_branch_index": [
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7,
+    8,
+    8,
+    9,
+    9,
+    10,
+    10,
+    11,
+    11,
+    12,
+    12,
+    1
+  ],
+  "stems": "甲乙丙丁戊己庚辛壬癸",
+  "branches": "子丑寅卯辰巳午未申酉戌亥",
+  "ten_god_order": [
+    "比肩",
+    "劫财",
+    "食神",
+    "伤官",
+    "偏财",
+    "正财",
+    "七杀",
+    "正官",
+    "偏印",
+    "正印"
+  ],
+  "ten_god_targets": [
+    "甲乙丙丁戊己庚辛壬癸",
+    "乙甲丁丙己戊辛庚癸壬",
+    "丙丁戊己庚辛壬癸甲乙",
+    "丁丙己戊辛庚癸壬乙甲",
+    "戊己庚辛壬癸甲乙丙丁",
+    "己戊辛庚癸壬乙甲丁丙",
+    "庚辛壬癸甲乙丙丁戊己",
+    "辛庚癸壬乙甲丁丙己戊",
+    "壬癸甲乙丙丁戊己庚辛",
+    "癸壬乙甲丁丙己戊辛庚"
+  ],
+  "pillars": [
+    "甲子",
+    "丙寅",
+    "戊辰",
+    "庚申"
+  ],
+  "hidden_metal_pillars": [
+    "甲子",
+    "丙寅",
+    "己卯",
+    "己巳"
+  ],
+  "original_blobs": {
+    "LICENSE": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+    "skills/analyze-bazi/scripts/inspect_bazi.mjs": "74199ecc8b217335f7a5bf879e2521b514e2290a",
+    "skills/cast-meihua/scripts/cast_meihua.mjs": "e347d800ef542ec467675be7355773bec86af435"
+  }
+}

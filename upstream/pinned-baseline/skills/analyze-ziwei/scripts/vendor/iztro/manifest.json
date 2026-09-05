@@ -1,0 +1,49 @@
+{
+  "schema_version": "vendor-manifest.v1",
+  "package": "iztro",
+  "version": "2.5.8",
+  "artifact": {
+    "format": "umd",
+    "encoding": "gzip+base64-chunks",
+    "bytes": 478617,
+    "sha256": "4b8eca323e5d4291471567c62255a2166471c55c77ebe8f0d2d38240e69d12b1",
+    "packaged": {
+      "gzip_bytes": 144760,
+      "gzip_sha256": "2eb896a68a14bf9fa1dff47c15f22f966432dcd71e392a3da34d2966bbcdcabe",
+      "chunks": [
+        {
+          "path": "iztro.min.js.gz.b64.part-00.txt",
+          "bytes": 50000,
+          "sha256": "63437cce83c8fd58e79699c104b8d3711a9ab272b55c3194b0f1e4b1eb93e251"
+        },
+        {
+          "path": "iztro.min.js.gz.b64.part-01.txt",
+          "bytes": 50000,
+          "sha256": "da8416726494aab0b791613da6e397ad77c9dd56eb02d5e2a1bd7292cb8685f8"
+        },
+        {
+          "path": "iztro.min.js.gz.b64.part-02.txt",
+          "bytes": 50000,
+          "sha256": "b6ca643a06aa4043d9fae2a802abd6140e2c87274880fc623672809bfc0e5107"
+        },
+        {
+          "path": "iztro.min.js.gz.b64.part-03.txt",
+          "bytes": 43016,
+          "sha256": "54355d942a01ad1d84c37c6cfcfce6d9289bff00643b5d1fe539b33e28cc4159"
+        }
+      ]
+    }
+  },
+  "source": {
+    "registry": "https://registry.npmjs.org/iztro",
+    "tarball": "https://registry.npmjs.org/iztro/-/iztro-2.5.8.tgz",
+    "npm_integrity": "sha512-kgyyvxdSEvgJxi6zvHpvzGbXZLGXCdhTHYK2Pe/sRdBIQ7RfCArvupmg2ChUMQCSQGomW7XCI0gWwUuKJwPENg==",
+    "npm_shasum": "c559a7384036596c1971faace403f4a658076a81",
+    "published_utc": "2026-03-01T15:41:27.486Z"
+  },
+  "license": {
+    "spdx": "MIT",
+    "file": "../licenses/iztro-LICENSE.txt",
+    "third_party_notices": "../licenses/third-party-notices.txt"
+  }
+}

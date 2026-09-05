@@ -1,0 +1,33 @@
+{
+  "schema_version": "ziwei-profile.v2",
+  "id": "ziwei-core-true-solar-v2",
+  "engine": "iztro",
+  "engine_version": "2.5.8",
+  "language": "zh-CN",
+  "astro_type": "heaven",
+  "time_contract": {
+    "basis": "true_solar",
+    "resolution": "external_resolved_only",
+    "civil_fallback": false,
+    "required_provenance": ["verification_status", "provider"],
+    "tool_verified_required": ["profile_id", "version"],
+    "target_granularity": "date",
+    "target_cycle_time_index": 0,
+    "target_cycle_time_semantics": "engine_positioning_only"
+  },
+  "config": {
+    "algorithm": "default",
+    "year_divide": "normal",
+    "horoscope_divide": "normal",
+    "age_divide": "normal",
+    "day_divide_default": "forward"
+  },
+  "maps": {
+    "mutagen": "iztro-2.5.8-default",
+    "brightness": "iztro-2.5.8-default"
+  },
+  "layers": {
+    "included": ["origin", "decadal", "yearly"],
+    "excluded": ["age", "monthly", "daily", "hourly"]
+  }
+}

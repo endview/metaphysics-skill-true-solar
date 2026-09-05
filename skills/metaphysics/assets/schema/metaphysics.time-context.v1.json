@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metaphysics.time-context.v1",
+  "$comment": "Current implementation contract; semantic and source validation is performed by the versioned runtime validators, not JSON Schema alone.",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "metaphysics.time-context.v1"
+    },
+    "source_kind": {
+      "enum": [
+        "user_specified",
+        "host_clock",
+        "imported"
+      ]
+    },
+    "raw_input": {
+      "type": "string",
+      "minLength": 1
+    },
+    "instant": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timezone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_precision": {
+      "enum": [
+        "minute",
+        "second",
+        "millisecond"
+      ]
+    },
+    "time_basis": {
+      "const": "civil"
+    },
+    "resolution_status": {
+      "const": "resolved"
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema",
+    "source_kind",
+    "raw_input",
+    "instant",
+    "timezone",
+    "input_precision",
+    "time_basis",
+    "resolution_status",
+    "source_ref"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metaphysics.execution-bundle.v1",
+  "$comment": "Current implementation contract; semantic and source validation is performed by the versioned runtime validators, not JSON Schema alone.",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "metaphysics.execution-bundle.v1"
+    },
+    "implementation_status": {
+      "const": "implemented_candidate"
+    },
+    "binding": {
+      "type": "object",
+      "properties": {
+        "case_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "task_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposition_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "criteria": {
+          "type": "string",
+          "minLength": 1
+        },
+        "window_digest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "analysis_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "case_id",
+        "task_id",
+        "method",
+        "subject_ref",
+        "event_ref",
+        "proposition_id",
+        "criteria",
+        "window_digest",
+        "analysis_scope",
+        "revision"
+      ],
+      "additionalProperties": false
+    },
+    "execution_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation": {
+      "type": "object"
+    },
+    "child_result": {
+      "$ref": "#/$defs/child"
+    },
+    "fact_block": {
+      "type": "string"
+    },
+    "claim_provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "nature"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "implementation_status",
+    "binding",
+    "execution_ref",
+    "validation",
+    "child_result",
+    "fact_block",
+    "claim_provenance"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "child": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "metaphysics.standard-child.v1"
+        },
+        "method_id": {
+          "enum": [
+            "bazi",
+            "ziwei",
+            "meihua"
+          ]
+        },
+        "skill_name": {
+          "enum": [
+            "$analyze-bazi",
+            "$analyze-ziwei",
+            "$cast-meihua"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "insufficient_input",
+            "error"
+          ]
+        },
+        "question_answered": {
+          "type": "string",
+          "minLength": 1
+        },
+        "applicable_time_scale": {
+          "enum": [
+            "structural",
+            "multi_year_stage",
+            "annual_cycle",
+            "bounded_event",
+            "unknown"
+          ]
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "basis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "assumptions_and_uncertainty": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "follow_up_needed": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "claim_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "proposition_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "subject_ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "statement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "direction": {
+                "enum": [
+                  "supportive",
+                  "cautionary",
+                  "mixed",
+                  "neutral",
+                  "unknown"
+                ]
+              },
+              "conditions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "applicable_time_scale": {
+                "enum": [
+                  "structural",
+                  "multi_year_stage",
+                  "annual_cycle",
+                  "bounded_event",
+                  "unknown"
+                ]
+              },
+              "basis_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "claim_id",
+              "proposition_id",
+              "subject_ref",
+              "statement",
+              "direction",
+              "conditions",
+              "applicable_time_scale",
+              "basis_refs"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "method_payload": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "method_id",
+        "skill_name",
+        "status",
+        "question_answered",
+        "applicable_time_scale",
+        "findings",
+        "basis",
+        "assumptions_and_uncertainty",
+        "limitations",
+        "follow_up_needed",
+        "claims",
+        "method_payload"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "ok"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "claims": {
+                "minItems": 1
+              },
+              "method_payload": {
+                "type": "object"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "claims": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

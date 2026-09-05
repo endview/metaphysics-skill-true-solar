@@ -1,0 +1,436 @@
+{
+  "schema_version": "metaphysics.method-manifest.v1",
+  "manifest_version": "3.0.0",
+  "time_basis_policy": {
+    "mode": "per_method_profile",
+    "civil_input_accepted": true,
+    "silent_civil_fallback_allowed": false,
+    "missing_true_solar_behavior": "collect_location_or_request_resolved_time",
+    "true_solar": {
+      "state_model_methods": [
+        "bazi",
+        "ziwei"
+      ],
+      "resolution_statuses": [
+        "resolved",
+        "candidate_set",
+        "unresolved"
+      ],
+      "accepted_verification_statuses": [
+        "tool_verified",
+        "user_declared"
+      ],
+      "tool_verified_metadata_contract": "method_profile_specific",
+      "unresolved_behavior": "needs_input_with_follow_up",
+      "boundary_behavior": "preserve_and_compare_candidates"
+    },
+    "method_profiles": {
+      "bazi": {
+        "calculation_basis": "true_solar"
+      },
+      "ziwei": {
+        "calculation_basis": "true_solar"
+      },
+      "meihua": {
+        "accepted_bases": [
+          "civil",
+          "true_solar"
+        ],
+        "default_basis": "civil",
+        "source_contract": "profile_specific_without_resolution_verification_status"
+      }
+    }
+  },
+  "question_shapes": {
+    "overall_structure": "跨领域的整体结构与较稳定背景",
+    "period_context": "某个阶段或年度周期的整体背景",
+    "relational_structure": "两个对象的独立结构及互动关系",
+    "domain_structure": "一个明确领域的本命或基础结构",
+    "domain_stage": "一个明确领域在阶段或年度周期中的落点",
+    "bounded_event": "一个有明确观察期限的当前单一问题"
+  },
+  "exclusion_codes": {
+    "overall_structure": "不覆盖跨领域整体结构",
+    "bounded_event": "不覆盖有明确观察期限的当前单一问题",
+    "monthly_cycle": "不覆盖月度时间层",
+    "daily_cycle": "不覆盖日度时间层",
+    "hourly_cycle": "不覆盖时辰时间层",
+    "precise_timing": "不提供精确应期",
+    "instant_event_outcome": "不回答即时事件成败",
+    "long_term_cycle": "不覆盖长期周期",
+    "fixed_personality": "不作固定人格判断"
+  },
+  "runtime_dependencies": {
+    "node_runtime": "可执行当前 Skill 所附 Node.js 脚本的运行时",
+    "bundled_iztro_engine": "紫微 Skill 随附且完整性校验通过的 iztro 引擎",
+    "intl_chinese_calendar": "支持 Chinese calendar 的 Node Intl/ICU 运行能力"
+  },
+  "readiness_checks": {
+    "bazi_true_solar_chart_candidates_confirmed": "单盘或候选四柱已声明由真太阳时生成，且每个候选都关联用户声明或工具核验的时间口径来源",
+    "bazi_reliable_true_solar_chart_available": "出生资料已由可靠换算与排盘来源生成真太阳时四柱或明确候选盘",
+    "ziwei_chart_fields_sufficient": "给定紫微命盘的字段与来源足以支持所请求时间层",
+    "true_solar_context_resolved": "需要真太阳时的输入为 resolved 或 candidate_set 并带用户声明或工具核验来源；unresolved 不通过该检查，改为 needs_input 与最少 follow-up",
+    "meihua_civil_time_ready": "梅花民用时 profile 已冻结 IANA 时区及唯一指定时点或 now",
+    "meihua_true_solar_time_ready": "梅花真太阳时 profile 已冻结唯一太阳钟面，并保留民用时、地点、经度与换算来源"
+  },
+  "time_scales": [
+    "structural",
+    "multi_year_stage",
+    "annual_cycle",
+    "bounded_event",
+    "unknown"
+  ],
+  "methods": [
+    {
+      "method_id": "bazi",
+      "record_version": "3.0.0",
+      "display_name": "八字",
+      "invocation": "$analyze-bazi",
+      "lifecycle_status": "active",
+      "domain_scope": "整体结构、较长期背景、明确领域结构或阶段，以及双人互动结构；具体领域由问题限定",
+      "capabilities": [
+        {
+          "capability_id": "structural-context",
+          "question_shapes": [
+            "overall_structure",
+            "period_context",
+            "relational_structure",
+            "domain_structure",
+            "domain_stage"
+          ],
+          "time_scales": [
+            "structural",
+            "multi_year_stage",
+            "annual_cycle"
+          ],
+          "orchestration_role": "structural_context"
+        }
+      ],
+      "input_requirements": {
+        "alternative_profiles": [
+          {
+            "profile_id": "provided-true-solar-chart-candidates",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "bazi_true_solar_chart_candidates_confirmed"
+            ],
+            "runtime_requirements": [
+              "node_runtime"
+            ],
+            "blocking_fields": [
+              "subject",
+              "goal",
+              "time_basis.resolution_status",
+              "time_basis.verification_status",
+              "time_basis.resolved_candidates",
+              "chart_candidates"
+            ]
+          },
+          {
+            "profile_id": "birth-data-for-true-solar-charting-review",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "bazi_reliable_true_solar_chart_available"
+            ],
+            "runtime_requirements": [
+              "node_runtime"
+            ],
+            "blocking_fields": [
+              "subject",
+              "goal",
+              "time_basis.raw_calendar",
+              "time_basis.raw_civil_datetime",
+              "time_basis.birth_place",
+              "time_basis.birth_longitude",
+              "time_basis.civil_timezone",
+              "time_basis.resolution_status",
+              "time_basis.verification_status",
+              "time_basis.resolved_candidates",
+              "chart_candidates",
+              "charting_source_version_access_date_and_rules"
+            ]
+          }
+        ],
+        "conditional_fields": [
+          "dayun_or_liunian_for_time_layers",
+          "second_subject_data_for_relational_structure",
+          "time_basis.raw_civil_datetime_place_longitude_and_timezone_when_available",
+          "time_basis.conversion_tool_version_access_date_and_parameters_when_tool_verified"
+        ],
+        "delegated_checks": [
+          "birth_and_chart_source_grade",
+          "true_solar_time_conversion",
+          "true_solar_boundary_candidates",
+          "dayun_true_solar_start_rules"
+        ]
+      },
+      "exclusions": [
+        "bounded_event",
+        "instant_event_outcome"
+      ],
+      "adapter_contract": {
+        "source_schema": "metaphysics.standard-child.v1",
+        "source_statuses": [
+          "ok",
+          "insufficient_input",
+          "error"
+        ],
+        "target_schema": "metaphysics.adapter-result.v3",
+        "normalizer": "standard-child-v1-to-adapter-v3"
+      },
+      "combination_policy": {
+        "allowed": true,
+        "independent_execution": true,
+        "orchestration_role": "structural_context",
+        "redundancy_group": "structural_context"
+      }
+    },
+    {
+      "method_id": "ziwei",
+      "record_version": "3.0.0",
+      "display_name": "紫微斗数",
+      "invocation": "$analyze-ziwei",
+      "lifecycle_status": "active",
+      "domain_scope": "子 Skill 声明支持的本命、领域、大限、流年与跨领域阶段主轴",
+      "capabilities": [
+        {
+          "capability_id": "domain-stage",
+          "question_shapes": [
+            "domain_structure",
+            "domain_stage",
+            "period_context"
+          ],
+          "time_scales": [
+            "structural",
+            "multi_year_stage",
+            "annual_cycle"
+          ],
+          "orchestration_role": "domain_stage"
+        }
+      ],
+      "input_requirements": {
+        "alternative_profiles": [
+          {
+            "profile_id": "provided-ziwei-chart",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "ziwei_chart_fields_sufficient",
+              "true_solar_context_resolved"
+            ],
+            "runtime_requirements": [],
+            "blocking_fields": [
+              "subject",
+              "goal",
+              "domain",
+              "time_layer",
+              "chart_and_source",
+              "birth.true_solar.status",
+              "birth.true_solar.verification_status"
+            ]
+          },
+          {
+            "profile_id": "ziwei-core-true-solar-v2",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "true_solar_context_resolved"
+            ],
+            "runtime_requirements": [
+              "node_runtime",
+              "bundled_iztro_engine"
+            ],
+            "blocking_fields": [
+              "subject",
+              "goal",
+              "domain",
+              "time_layer",
+              "birth_calendar_and_date",
+              "algorithm_gender",
+              "birth.civil.date_time_timezone_location_longitude",
+              "birth.true_solar.status",
+              "birth.true_solar.verification_status",
+              "birth.true_solar.resolved_candidates",
+              "target.civil.date_timezone_location_longitude",
+              "target.true_solar.status",
+              "target.true_solar.verification_status",
+              "target.true_solar.resolved_candidates"
+            ]
+          }
+        ],
+        "conditional_fields": [
+          "lunar_leap_month_flag",
+          "specific_target_date_or_lunar_cycle_for_annual",
+          "birth_and_target_true_solar_conversion_source_when_tool_verified"
+        ],
+        "delegated_checks": [
+          "source_grade",
+          "lunar_leap_month_candidates",
+          "candidate_stability"
+        ]
+      },
+      "exclusions": [
+        "monthly_cycle",
+        "daily_cycle",
+        "hourly_cycle",
+        "precise_timing",
+        "instant_event_outcome"
+      ],
+      "adapter_contract": {
+        "source_schema": "metaphysics.standard-child.v1",
+        "source_statuses": [
+          "ok",
+          "insufficient_input",
+          "error"
+        ],
+        "target_schema": "metaphysics.adapter-result.v3",
+        "normalizer": "standard-child-v1-to-adapter-v3"
+      },
+      "combination_policy": {
+        "allowed": true,
+        "independent_execution": true,
+        "orchestration_role": "domain_stage",
+        "redundancy_group": "domain_stage"
+      }
+    },
+    {
+      "method_id": "meihua",
+      "record_version": "3.0.0",
+      "display_name": "梅花易数",
+      "invocation": "$cast-meihua",
+      "lifecycle_status": "active",
+      "domain_scope": "一个清晰、具体且有观察期限的当前事件或选择",
+      "capabilities": [
+        {
+          "capability_id": "bounded-event",
+          "question_shapes": [
+            "bounded_event"
+          ],
+          "time_scales": [
+            "bounded_event"
+          ],
+          "orchestration_role": "bounded_event"
+        }
+      ],
+      "input_requirements": {
+        "alternative_profiles": [
+          {
+            "profile_id": "lunar-time-v2-civil",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "meihua_civil_time_ready"
+            ],
+            "runtime_requirements": [
+              "node_runtime",
+              "intl_chinese_calendar"
+            ],
+            "blocking_fields": [
+              "single_question",
+              "observation_horizon",
+              "timing_unit",
+              "timing_profile",
+              "time_basis",
+              "civil_datetime_or_now",
+              "timezone_iana"
+            ]
+          },
+          {
+            "profile_id": "lunar-time-v2-true-solar",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "meihua_true_solar_time_ready"
+            ],
+            "runtime_requirements": [
+              "node_runtime",
+              "intl_chinese_calendar"
+            ],
+            "blocking_fields": [
+              "single_question",
+              "observation_horizon",
+              "timing_unit",
+              "timing_profile",
+              "time_basis",
+              "civil_datetime_rfc3339",
+              "true_solar_local_datetime",
+              "timezone_iana",
+              "location",
+              "longitude",
+              "conversion_source"
+            ]
+          },
+          {
+            "profile_id": "numbers-v2-civil",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "meihua_civil_time_ready"
+            ],
+            "runtime_requirements": [
+              "node_runtime"
+            ],
+            "blocking_fields": [
+              "single_question",
+              "observation_horizon",
+              "timing_unit",
+              "timing_profile",
+              "time_basis",
+              "civil_datetime_or_now",
+              "timezone_iana",
+              "two_or_three_positive_integers"
+            ]
+          },
+          {
+            "profile_id": "numbers-v2-true-solar",
+            "readiness": "conditional",
+            "readiness_checks": [
+              "meihua_true_solar_time_ready"
+            ],
+            "runtime_requirements": [
+              "node_runtime"
+            ],
+            "blocking_fields": [
+              "single_question",
+              "observation_horizon",
+              "timing_unit",
+              "timing_profile",
+              "time_basis",
+              "civil_datetime_rfc3339",
+              "true_solar_local_datetime",
+              "timezone_iana",
+              "location",
+              "longitude",
+              "conversion_source",
+              "two_or_three_positive_integers"
+            ]
+          }
+        ],
+        "conditional_fields": [
+          "frozen_options_or_threshold_for_choice_questions"
+        ],
+        "delegated_checks": [
+          "protocol_input_validity",
+          "existing_case_reuse",
+          "true_solar_boundary_candidates"
+        ]
+      },
+      "exclusions": [
+        "overall_structure",
+        "long_term_cycle",
+        "fixed_personality"
+      ],
+      "adapter_contract": {
+        "source_schema": "metaphysics.standard-child.v1",
+        "source_statuses": [
+          "ok",
+          "insufficient_input",
+          "error"
+        ],
+        "target_schema": "metaphysics.adapter-result.v3",
+        "normalizer": "standard-child-v1-to-adapter-v3"
+      },
+      "combination_policy": {
+        "allowed": true,
+        "independent_execution": true,
+        "orchestration_role": "bounded_event",
+        "redundancy_group": "bounded_event"
+      }
+    }
+  ]
+}

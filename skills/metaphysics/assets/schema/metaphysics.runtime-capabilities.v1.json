@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metaphysics.runtime-capabilities.v1",
+  "$comment": "Current implementation contract; semantic and source validation is performed by the versioned runtime validators, not JSON Schema alone.",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "const": "metaphysics.runtime-capabilities.v1"
+    },
+    "skill_loading": {
+      "enum": [
+        "file_read",
+        "native_activation",
+        "unavailable"
+      ]
+    },
+    "process_execution": {
+      "enum": [
+        "available",
+        "unavailable"
+      ]
+    },
+    "chinese_calendar": {
+      "enum": [
+        "verified",
+        "unavailable",
+        "unknown"
+      ]
+    },
+    "calendar_api_present": {
+      "type": "boolean"
+    },
+    "branch_isolation": {
+      "enum": [
+        "verified",
+        "unavailable",
+        "unknown"
+      ]
+    },
+    "tool_observation": {
+      "enum": [
+        "available",
+        "unavailable"
+      ]
+    },
+    "case_store": {
+      "enum": [
+        "session",
+        "authorized_persistent",
+        "unavailable"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "limitations": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema",
+    "skill_loading",
+    "process_execution",
+    "chinese_calendar",
+    "calendar_api_present",
+    "branch_isolation",
+    "tool_observation",
+    "case_store",
+    "source",
+    "limitations"
+  ],
+  "additionalProperties": true
+}

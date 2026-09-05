@@ -10,6 +10,10 @@ if (vendorManifest.package !== 'iztro' || vendorManifest.version !== '2.5.8') {
   throw new Error('Unexpected iztro vendor manifest identity');
 }
 
+// Reliability modification, 2026-09-06. No vendor bytes read before preflight.
+// Re-read and hash each use so a changed resource cannot hit a stale cache.
+let cached = null;
+function verifiedCompiled() {
 const encoded = vendorManifest.artifact.packaged.chunks.map((chunk) => {
   if (!/^iztro\.min\.js\.gz\.b64\.part-\d{2}\.txt$/.test(chunk.path)) {
     throw new Error('Unexpected iztro vendor chunk path');
@@ -27,14 +31,17 @@ const compressedDigest = createHash('sha256').update(compressed).digest('hex');
 if (compressed.length !== vendorManifest.artifact.packaged.gzip_bytes || compressedDigest !== vendorManifest.artifact.packaged.gzip_sha256) {
   throw new Error('Vendored iztro package failed integrity verification');
 }
-const artifact = gunzipSync(compressed);
+const artifact = gunzipSync(compressed, { maxOutputLength: vendorManifest.artifact.bytes + 1 });
 const digest = createHash('sha256').update(artifact).digest('hex');
 if (digest !== vendorManifest.artifact.sha256 || artifact.length !== vendorManifest.artifact.bytes) {
   throw new Error('Vendored iztro artifact failed integrity verification');
 }
 const source = artifact.toString('utf8');
 
-const compiled = new vm.Script(source, { filename: 'iztro-2.5.8.min.js' });
+if (!cached || cached.digest !== digest) cached = { digest, compiled: new vm.Script(source, { filename: 'iztro-2.5.8.min.js' }) };
+return cached.compiled;
+
+}
 
 export function loadIsolatedIztro() {
   const module = { exports: {} };
@@ -48,7 +55,7 @@ export function loadIsolatedIztro() {
     codeGeneration: { strings: false, wasm: false },
     name: 'iztro-isolated-candidate'
   });
-  compiled.runInContext(context, { timeout: 10000 });
+  verifiedCompiled().runInContext(context, { timeout: 10000 });
   const api = module.exports;
   if (!api || typeof api.astro?.withOptions !== 'function') {
     throw new Error('Vendored iztro UMD did not expose the expected API');

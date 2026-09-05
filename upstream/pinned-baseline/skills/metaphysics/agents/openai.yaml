@@ -1,0 +1,13 @@
+interface:
+  display_name: 玄学 Skill
+  short_description: 统一理解玄学请求，选择并组合已注册能力，为后续扩展保留入口
+  default_prompt: 使用 $metaphysics 判断我的问题适合哪种玄学能力；按所选方法冻结民用时或真太阳时时间口径，补齐必要地区与来源，再调用最少必要的方法或组合并整合结果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
