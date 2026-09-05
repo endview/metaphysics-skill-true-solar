@@ -22,9 +22,13 @@ for name,entry in build['packages'].items():
   before=snapshot()
   deny=temp/'deny-network.cjs';deny.write_text("const fail=()=>{throw Error('NETWORK_DISABLED_IN_PACKAGE_QA')};for(const n of ['net','http','https','tls','dgram']){const m=require('node:'+n);for(const k of ['connect','createConnection','request','get','createSocket'])if(typeof m[k]==='function')m[k]=fail;}global.fetch=fail;")
   env={'PATH':str(Path(node).parent),'LANG':'C.UTF-8','TZ':'UTC','NODE_OPTIONS':'--require='+str(deny)}
+  # Windows needs its system and temporary-directory paths even in a minimal env.
+  if os.name=='nt':
+   for key in ('SystemRoot','WINDIR','TEMP','TMP'):
+    if key in os.environ:env[key]=os.environ[key]
   if method:
    req={'op':'review','input':inputs[method]};run=subprocess.run([node,'scripts/run-verified.mjs'],cwd=directory,input=json.dumps(req)+'\n'+json.dumps(req)+'\n',capture_output=True,text=True,timeout=35,env=env)
-   assert run.returncode==0,run.stderr;out=[json.loads(x) for x in run.stdout.splitlines()];assert len(out)==2 and all(x['status']=='ok' for x in out)
+   assert run.returncode==0,run.stderr;out=[json.loads(x) for x in run.stdout.splitlines()];assert len(out)==2 and all(x['status']=='ok' for x in out),(run.stdout,run.stderr)
    a,b=[x['result'] for x in out];assert a['execution_record']['exit_code']==0 and a['execution_record']['run_id']==b['execution_record']['run_id'] and b['reused']
    assert a['bundle']['child_result']['method_id']==method and a['bundle']['child_result']['schema_version']=='metaphysics.standard-child.v1'
    bad=json.loads(json.dumps(req));bad['input']['analysis_scope']='outcome_prediction'
