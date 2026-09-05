@@ -1,0 +1,100 @@
+name: Publish baseline v1.0
+on:
+  push:
+    branches: [codex/reliability-complete]
+    paths: [.github/workflows/publish-baseline-v1.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-baseline-v1
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: 456100131d7f0492df9ac1d515d614d37515f9da
+          persist-credentials: false
+      - name: Validate, package and publish the unchanged baseline
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, io, json, os, pathlib, stat, subprocess, zipfile
+          root = pathlib.Path.cwd()
+          expected = '456100131d7f0492df9ac1d515d614d37515f9da'
+          def gh(*args):
+              return subprocess.check_output(['gh', *args], text=True)
+          main = json.loads(gh('api', 'repos/' + os.environ['GH_REPO'] + '/git/ref/heads/main'))['object']['sha']
+          if main != expected:
+              raise SystemExit('Main changed; refusing to mislabel a different baseline')
+          if subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() != expected:
+              raise SystemExit('Checkout does not match baseline')
+          names = ['metaphysics', 'analyze-bazi', 'analyze-ziwei', 'cast-meihua']
+          out = pathlib.Path(os.environ['RUNNER_TEMP']) / 'release-v1.0'
+          out.mkdir()
+          def put(z, name, data):
+              info = zipfile.ZipInfo(name, date_time=(2026, 9, 6, 0, 0, 0))
+              info.external_attr = (stat.S_IFREG | 0o644) << 16
+              info.compress_type = zipfile.ZIP_DEFLATED
+              z.writestr(info, data)
+          aggregate = out / 'metaphysics-skills-v1.0.zip'
+          with zipfile.ZipFile(aggregate, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as suite:
+              for name in names:
+                  directory = root / 'skills' / name
+                  assert (directory / 'SKILL.md').is_file()
+                  buffer = io.BytesIO()
+                  with zipfile.ZipFile(buffer, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as skill:
+                      for p in sorted(directory.rglob('*')):
+                          if p.is_symlink():
+                              raise SystemExit('Symlink found')
+                          if p.is_file():
+                              if p.suffix == '.json':
+                                  json.loads(p.read_text())
+                              if p.suffix == '.mjs':
+                                  subprocess.run(['node', '--check', str(p)], check=True)
+                              put(skill, name + '/' + p.relative_to(directory).as_posix(), p.read_bytes())
+                      put(skill, name + '/LICENSE', (root / 'LICENSE').read_bytes())
+                  put(suite, name + '/skill.zip', buffer.getvalue())
+              put(suite, 'README.txt', b'v1.0: unchanged baseline 456100131d7f0492df9ac1d515d614d37515f9da.\nExtract this delivery container. Each <skill-name>/skill.zip is one installable Skill.\nProject LICENSE is included in each standalone package; original third-party notices are retained.\n')
+          vendor = root / 'skills/analyze-ziwei/scripts/vendor/iztro'
+          manifest = json.loads((vendor / 'manifest.json').read_text())
+          for part in manifest['artifact']['packaged']['chunks']:
+              data = (vendor / part['path']).read_bytes()
+              assert len(data) == part['bytes'] and hashlib.sha256(data).hexdigest() == part['sha256']
+          subprocess.run(['git', 'archive', '--format=zip', '--prefix=metaphysics-v1.0/', '--output=' + str(out / 'metaphysics-source-v1.0.zip'), expected], check=True)
+          notes = '''## v1.0 — 升级前基线归档
+
+          按维护者要求，将本次可靠执行升级之前的 `main` 首次命名并发布为 **v1.0**，用于历史下载、比较和回滚。本次发布不重写历史，不包含 v1.1 改造。
+
+          **源码提交：** `456100131d7f0492df9ac1d515d614d37515f9da`。
+
+          ### 初始功能
+          - 四个自包含 Skill：`metaphysics` 主路由、`analyze-bazi` 八字、`analyze-ziwei` 紫微斗数、`cast-meihua` 梅花易数。
+          - 八字提供给定四柱的结构与十神检查；不将该检查器当作从出生时间排盘的历法引擎。
+          - 紫微保留 iztro 2.5.8、真太阳时输入约束、候选配置及第三方引擎完整性检查。
+          - 梅花支持 `lunar-time-v2` 和 `numbers-v2`，明确民用时／真太阳时口径及冻结问题规则。
+          - 保留项目 AGPL-3.0 许可和随包第三方归属说明。
+
+          ### 下载与安装
+          `metaphysics-skills-v1.0.zip` 是四包交付容器。解压后，分别使用各子目录中的 `skill.zip`；不要把外层总包作为一个 Skill 导入。独立包补入项目 LICENSE，原 Skill 代码和规则保持基线内容。`metaphysics-source-v1.0.zip` 是对应提交的完整原始源码，`SHA256SUMS-v1.0.txt` 提供附件校验值。
+
+          ### 验证范围与已知限制
+          本次归档执行了文件／JSON、JavaScript 语法及 vendor 分块摘要检查，不宣称完整模型行为、产品安装、跨平台或现实预测效度已获验证。此版本尚未包含 v1.1 的受控执行链、事件级复用、解释草稿校验与新发布测试体系。
+          '''
+          notes = '\n'.join(line[10:] if line.startswith('          ') else line for line in notes.splitlines()).strip() + '\n'
+          (out / 'RELEASE-NOTES-v1.0.md').write_text(notes)
+          checks = ''.join(hashlib.sha256(p.read_bytes()).hexdigest() + '  ' + p.name + '\n' for p in sorted(out.iterdir()) if p.is_file())
+          (out / 'SHA256SUMS-v1.0.txt').write_text(checks)
+          existing = subprocess.run(['gh', 'release', 'view', 'v1.0', '--json', 'tagName'], capture_output=True, text=True)
+          if existing.returncode == 0:
+              raise SystemExit('v1.0 already exists; refusing duplicate/overwrite')
+          subprocess.run(['gh', 'release', 'create', 'v1.0', '--target', expected, '--title', 'v1.0 - 升级前基线归档', '--notes-file', str(out / 'RELEASE-NOTES-v1.0.md'), *[str(p) for p in sorted(out.iterdir())]], check=True)
+          print(gh('release', 'view', 'v1.0', '--json', 'url,tagName,targetCommitish,isDraft,isPrerelease,assets'))
+          PY
